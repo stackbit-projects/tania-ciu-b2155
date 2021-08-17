@@ -38,9 +38,9 @@ Getting insights out of data is something that I really like. Data visualization
 
 ## Certification
 **Certified International Specialist in Data Visualization (Founding Stage)**
-<p>Feb 2021 - Sept 2024</p>
+<p>Feb 2021 - Sept 2024
 Published by: PASAS Institute, Singapore
-Credential ID: CISDV 04745
+Credential ID: CISDV 04745</p>
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus vel venenatis augue. Suspendisse tincidunt, nibh eget sodales eleifend, lectus magna elementum lorem, ut bibendum tellus turpis quis risus. Vivamus sagittis enim est, et semper lectus hendrerit ut.
 

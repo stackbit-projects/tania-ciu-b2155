@@ -54,6 +54,6 @@ LinkedIn : https://www.linkedin.com/in/tania-ciu-3b558b1a2/</br>
 
 Email       : tania.ciu@student.umn.ac.id</br>
 
-Phone      : 0852-1329-0846\</br>
+Phone      : 0852-1329-0846</br>
 
 Address   : Jl.Kirana II No.39, Kota Jambi, Jambi 36134, Indonesia

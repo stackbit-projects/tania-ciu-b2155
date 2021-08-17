@@ -373,7 +373,12 @@ data.hist(column='length', by='label', bins=50,figsize=(11,5), color = "darkturq
            <matplotlib.axes._subplots.AxesSubplot object at 0x0000026309231910>],
           dtype=object)
 
-![png](/static/img/output\_5\_1.png)
+
+
+
+![png](/images/output_5_1.png)
+
+
 
 ```python
 from wordcloud import WordCloud

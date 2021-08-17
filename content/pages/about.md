@@ -37,7 +37,8 @@ Currently, I'm enrolled as Information System student in Universitas Multimedia 
 Getting insights out of data is something that I really like. Data visualization and machine learning are some techniques that I am using to achieve this. 
 
 ## Certification
-
+Certified International Specialist in Data Visualization (Founding Stage)
+Feb
 
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus vel venenatis augue. Suspendisse tincidunt, nibh eget sodales eleifend, lectus magna elementum lorem, ut bibendum tellus turpis quis risus. Vivamus sagittis enim est, et semper lectus hendrerit ut.

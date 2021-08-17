@@ -976,7 +976,7 @@ metrics(y_test, predict_SVM)
        macro avg       0.75      0.56      0.57     13564
     weighted avg       0.86      0.89      0.85     13564
 
-![png](/images/output_42_1.png)
+![png](/images/output_40_1.png)
 
 ### Model Comparison
 

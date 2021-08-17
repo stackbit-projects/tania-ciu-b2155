@@ -425,6 +425,7 @@ ax.set_ylabel('Count', fontsize = 15)
     Text(22.200000000000017, 0.5, 'Count')
 
 ![png](/images/output_12_1.png)
+![png](/images/output_11_1.png)
 
 ```python
 fig, axs = plt.subplots(ncols=3)

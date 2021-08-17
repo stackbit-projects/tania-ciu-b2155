@@ -61,7 +61,7 @@ Address &nbsp;&nbsp;: Jl.Kirana II No.39, Kota Jambi, Jambi 36134, Indonesia
       <td>https://www.linkedin.com/in/tania-ciu-3b558b1a2/ </td>
     </tr>
     <tr>
-        <td>
+        <td>Email</td>
         <td>
     </tr>
   </tbody>

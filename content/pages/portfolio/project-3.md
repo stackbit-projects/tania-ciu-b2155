@@ -34,23 +34,18 @@ seo:
       relativeUrl: true
 layout: project
 ---
-
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Mus mauris vitae ultricies leo. In vitae turpis massa sed. Mauris nunc congue nisi vitae suscipit tellus mauris a. Phasellus egestas tellus rutrum tellus pellentesque. Nulla facilisi morbi tempus iaculis urna id volutpat. Ac tortor vitae purus faucibus ornare suspendisse sed. Libero volutpat sed cras ornare arcu dui vivamus arcu felis. Suspendisse interdum consectetur libero id. Quisque egestas diam in arcu. Eget gravida cum sociis natoque penatibus et. Ipsum suspendisse ultrices gravida dictum fusce ut placerat orci. Etiam dignissim diam quis enim. Vestibulum lorem sed risus ultricies tristique nulla aliquet enim tortor. Ac orci phasellus egestas tellus rutrum tellus pellentesque eu tincidunt. Nulla malesuada pellentesque elit eget gravida cum sociis natoque. Ut venenatis tellus in metus vulputate eu scelerisque felis. Porttitor eget dolor morbi non arcu risus quis varius quam. Volutpat lacus laoreet non curabitur. Vulputate mi sit amet mauris commodo quis imperdiet massa.
-
->"Design adds value faster than it adds costs." - Joel Spolsky
 
 ## Retrieve Data
 
 Capitalize on low hanging fruit to identify a ballpark value added activity to beta test. Override the digital divide with additional clickthroughs from DevOps. Nanotechnology immersion along the information highway will close the loop on focusing solely on the bottom line.
-test 
+test
+
 ```python
 import pandas as pd
 data = pd.read_csv('SMSSpamCollection.csv', encoding='latin-1')
 data
 ```
-
-
-
 
 <div>
 <style scoped>
@@ -65,6 +60,7 @@ data
     .dataframe thead th {
         text-align: right;
     }
+
 </style>
 <table border="1" class="dataframe">
   <thead>
@@ -171,19 +167,13 @@ data
 <p>5572 rows × 5 columns</p>
 </div>
 
-
-
 **Data Pre-Processing**
-
 
 ```python
 data = data.drop(["Unnamed: 2", "Unnamed: 3", "Unnamed: 4"], axis=1)
 data.columns = ["label", "text"]
 data
 ```
-
-
-
 
 <div>
 <style scoped>
@@ -198,6 +188,7 @@ data
     .dataframe thead th {
         text-align: right;
     }
+
 </style>
 <table border="1" class="dataframe">
   <thead>
@@ -268,16 +259,10 @@ data
 <p>5572 rows × 2 columns</p>
 </div>
 
-
-
-
 ```python
 data['length'] = data['text'].apply(len)
 data
 ```
-
-
-
 
 <div>
 <style scoped>
@@ -292,6 +277,7 @@ data
     .dataframe thead th {
         text-align: right;
     }
+
 </style>
 <table border="1" class="dataframe">
   <thead>
@@ -374,9 +360,6 @@ data
 <p>5572 rows × 3 columns</p>
 </div>
 
-
-
-
 ```python
 import matplotlib as mpl
 import matplotlib.pyplot as plt
@@ -386,19 +369,11 @@ plt.style.use('seaborn-bright')
 data.hist(column='length', by='label', bins=50,figsize=(11,5), color = "darkturquoise")
 ```
 
-
-
-
     array([<matplotlib.axes._subplots.AxesSubplot object at 0x000002630923E190>,
            <matplotlib.axes._subplots.AxesSubplot object at 0x0000026309231910>],
           dtype=object)
 
-
-
-
-![png](/static/img/output_5_1.png)
-
-
+![png](/static/img/output\_5\_1.png)
 
 ```python
 from wordcloud import WordCloud
@@ -414,26 +389,19 @@ def generate_wordcloud(all_words):
     plt.show()
 ```
 
-
 ```python
 ham = ' '.join([text for text in data['text'][data.label == "ham"]])
 generate_wordcloud(ham)
 ```
 
-
-![png](output_7_0.png)
-
-
+![png](output\_7\_0.png)
 
 ```python
 spam = ' '.join([text for text in data['text'][data.label == "spam"]])
 generate_wordcloud(spam)
 ```
 
-
-![png](output_8_0.png)
-
-
+![png](output\_8\_0.png)
 
 ```python
 from nltk.stem import SnowballStemmer
@@ -448,7 +416,6 @@ def pre_process(text):
     return words
 
 ```
-
 
 ```python
 import nltk
@@ -465,16 +432,13 @@ features = vectorizer.fit_transform(textFeatures)
 
     C:\Users\Tania Ciu\anaconda3\lib\site-packages\sklearn\utils\validation.py:68: FutureWarning: Pass input=english as keyword args. From version 0.25 passing these as positional arguments will result in an error
       warnings.warn("Pass {} as keyword args. From version 0.25 "
-    
 
 **Data Splitting**
-
 
 ```python
 # Map dataframe to encode values and put values into a numpy array
 encoded_labels = data['label'].map(lambda x: 1 if x == 'spam' else 0).values # ham will be 0 and spam will be 1
 ```
-
 
 ```python
 from sklearn.model_selection import train_test_split
@@ -483,7 +447,6 @@ X_train, X_test, y_train, y_test = train_test_split(features, encoded_labels,
 ```
 
 **Data Modeling and Data Validation**
-
 
 ```python
 import numpy as np 
@@ -511,7 +474,6 @@ def plot_confusion_matrix(matrix):
 
 *Support Vector Machine Algorithm*
 
-
 ```python
 from sklearn import svm
 
@@ -525,14 +487,10 @@ plot_confusion_matrix(conf_matrix_svm)
 ```
 
     Accuracy Score = 0.9706937799043063
-    
 
-
-![png](output_17_1.png)
-
+![png](output\_17\_1.png)
 
 *Naive Bayes Algorithm*
-
 
 ```python
 from sklearn.naive_bayes import GaussianNB
@@ -547,14 +505,10 @@ plot_confusion_matrix(conf_matrix_nb)
 ```
 
     Accuracy Score = 0.8738038277511961
-    
 
-
-![png](output_19_1.png)
-
+![png](output\_19\_1.png)
 
 ***Support Vector Machine and Naive Bayes Algorithm***
-
 
 ```python
 def perf_measure(y_actual, y_hat):
@@ -578,7 +532,6 @@ def perf_measure(y_actual, y_hat):
     return(TP, FP, TN, FN)
 ```
 
-
 ```python
 classifiers=[]
 classifiers.append(('SVM',svm_clf))
@@ -599,7 +552,6 @@ for i,v in classifiers:
     cnf_matric_parameter.append((i,TP,FP,TN,FN))
 ```
 
-
 ```python
 column_names=['Algorithm','Accuracy','Precision','Recall','F-measure']
 df1=pd.DataFrame(result,columns=column_names)
@@ -609,8 +561,6 @@ print(df1)
       Algorithm  Accuracy  Precision    Recall  F-measure
     0       SVM  0.970694   0.975490  0.818930   0.890380
     1        NB  0.873804   0.540404  0.880658   0.669797
-    
-
 
 ```python
 df1.plot(kind='bar', ylim=(0.2,1.0), align='center', colormap="RdBu")
@@ -619,13 +569,6 @@ plt.ylabel('Score',fontsize=12)
 plt.legend(bbox_to_anchor=(1.05, 1), loc=2, borderaxespad=0.,fontsize=10)
 ```
 
-
-
-
     <matplotlib.legend.Legend at 0x2630c58e3d0>
 
-
-
-
-![png](output_24_1.png)
-
+![png](output\_24\_1.png)

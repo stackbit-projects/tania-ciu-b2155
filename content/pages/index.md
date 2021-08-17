@@ -4,7 +4,7 @@ hide_title: true
 sections:
   - section_id: hero
     type: section_hero
-    title: 'Hi, Tania Ciu.'
+    title: 'Hello, I''m Tania Ciu.'
     content: >
       A third-year information system student who have a passion in big data and
       data analytics fields with a good problem solving and communication

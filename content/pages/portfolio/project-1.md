@@ -36,22 +36,17 @@ seo:
       relativeUrl: true
 layout: project
 ---
-
 Vis accumsan feugiat adipiscing nisl amet adipiscing accumsan blandit accumsan sapien blandit ac amet faucibus aliquet placerat commodo. Interdum ante aliquet commodo accumsan vis phasellus adipiscing. Ornare a in lacinia. Vestibulum accumsan ac metus massa tempor. Accumsan in lacinia ornare massa amet. Ac interdum ac non praesent. Cubilia lacinia interdum massa faucibus blandit nullam. Accumsan phasellus nunc integer. Accumsan euismod nunc adipiscing lacinia erat ut sit. Arcu amet. Id massa aliquet arcu accumsan lorem amet accumsan.
 
 ## Data Understanding
 
-### Import Dataset 
-
+### Import Dataset
 
 ```python
 import pandas as pd
 data = pd.read_csv('bank-full.csv', sep=';')
 data.head()
 ```
-
-
-
 
 <div>
 <style scoped>
@@ -66,6 +61,7 @@ data.head()
     .dataframe thead th {
         text-align: right;
     }
+
 </style>
 <table border="1" class="dataframe">
   <thead>
@@ -195,10 +191,7 @@ data.head()
 </table>
 </div>
 
-
-
 ### Data Exploration
-
 
 ```python
 #Check data dimension
@@ -206,16 +199,11 @@ print("Ukuran data: {}".format(data.shape))
 ```
 
     Ukuran data: (45211, 17)
-    
-
 
 ```python
 #Check missing value
 data.isnull().sum()
 ```
-
-
-
 
     age          0
     job          0
@@ -235,9 +223,6 @@ data.isnull().sum()
     poutcome     0
     y            0
     dtype: int64
-
-
-
 
 ```python
 #Data Information
@@ -268,16 +253,11 @@ data.info()
      16  y          45211 non-null  object
     dtypes: int64(7), object(10)
     memory usage: 5.9+ MB
-    
-
 
 ```python
 # Statistic Descriptive Analysis of Data
 data.describe().T
 ```
-
-
-
 
 <div>
 <style scoped>
@@ -292,6 +272,7 @@ data.describe().T
     .dataframe thead th {
         text-align: right;
     }
+
 </style>
 <table border="1" class="dataframe">
   <thead>
@@ -389,24 +370,19 @@ data.describe().T
 </table>
 </div>
 
-
-
-
 ```python
 #Import Plotting Libraries
 import matplotlib.pyplot as plt
 import seaborn as sns
 ```
 
-
 ```python
 data.hist(figsize=(15,15), density=True, color="#330033")
 plt.show()
+
 ```
 
-
-![png hist](images/output_9_0.jpg)
-
+![png hist](images/output\_9\_0.jpg)
 
 ```python
 fig, ax = plt.subplots()
@@ -422,10 +398,7 @@ for rect in ax.patches:
                 xytext=(0, 5), textcoords='offset points', ha='center', va='bottom') 
 ```
 
-
-![png](images/output_10_0.png)
-
-
+![png](images/output\_10\_0.png)
 
 ```python
 fig, axs = plt.subplots(ncols=3)
@@ -436,17 +409,9 @@ sns.countplot(x = 'default', data=data, palette="rocket", ax=axs[2])
 ax.set_ylabel('Count', fontsize = 15)
 ```
 
-
-
-
     Text(22.200000000000017, 0.5, 'Count')
 
-
-
-
-![png](output_11_1.png)
-
-
+![png](output\_11\_1.png)
 
 ```python
 fig, axs = plt.subplots(ncols=3)
@@ -457,17 +422,9 @@ sns.countplot(x = 'contact', data=data, palette="rocket", ax=axs[2])
 ax.set_ylabel('Count', fontsize = 15)
 ```
 
-
-
-
     Text(22.200000000000017, 0.5, 'Count')
 
-
-
-
-![png](output_12_1.png)
-
-
+![png](output\_12\_1.png)
 
 ```python
 fig, axs = plt.subplots(ncols=3)
@@ -478,21 +435,13 @@ sns.countplot(x = 'y', data=data, palette="rocket", ax=axs[2])
 ax.set_ylabel('Count', fontsize = 15)
 ```
 
-
-
-
     Text(22.200000000000017, 0.5, 'Count')
 
-
-
-
-![png](output_13_1.png)
-
+![png](output\_13\_1.png)
 
 ## Data Preparation
 
 ### Label Encoding
-
 
 ```python
 from sklearn import preprocessing
@@ -500,9 +449,6 @@ le = preprocessing.LabelEncoder()
 data = data.apply(le.fit_transform)
 data.head()
 ```
-
-
-
 
 <div>
 <style scoped>
@@ -517,6 +463,7 @@ data.head()
     .dataframe thead th {
         text-align: right;
     }
+
 </style>
 <table border="1" class="dataframe">
   <thead>
@@ -646,12 +593,9 @@ data.head()
 </table>
 </div>
 
-
-
 ## Modeling
 
 ### Data Splitting
-
 
 ```python
 from sklearn.model_selection import train_test_split
@@ -674,10 +618,8 @@ print("y_test shape: {}".format(y_test.shape))
     y_train shape: (31647,)
     X_test shape: (13564, 16)
     y_test shape: (13564,)
-    
 
 ### Decision Tree Model
-
 
 ```python
 from sklearn.tree import DecisionTreeClassifier
@@ -689,17 +631,12 @@ print("Test prediction: {}".format(predict_DT))
 ```
 
     Test prediction: [0 0 0 ... 0 0 0]
-    
-
 
 ```python
 df_DT = pd.concat([y_test, pd.Series(predict_DT, name='Predicted_y')], axis=1)
 df_DT.dropna(axis=0, inplace=True)
 df_DT.tail()
 ```
-
-
-
 
 <div>
 <style scoped>
@@ -714,6 +651,7 @@ df_DT.tail()
     .dataframe thead th {
         text-align: right;
     }
+
 </style>
 <table border="1" class="dataframe">
   <thead>
@@ -753,9 +691,6 @@ df_DT.tail()
 </table>
 </div>
 
-
-
-
 ```python
 #Feature Selection
 feature_names = data[['age','job','marital','education','default','balance',
@@ -763,7 +698,6 @@ feature_names = data[['age','job','marital','education','default','balance',
                              'month','duration','campaign','previous',
                              'poutcome','pdays']]
 ```
-
 
 ```python
 #Decision tree building
@@ -777,13 +711,7 @@ with open("tree.dot") as f:
 graphviz.Source(dot_graph)
 ```
 
-
-
-
-![svg](output_24_0.svg)
-
-
-
+![svg](output\_24\_0.svg)
 
 ```python
 from sklearn import tree
@@ -800,12 +728,9 @@ imgplot = plt.imshow(img)
 plt.show() 
 ```
 
-
-![png](output_25_0.png)
-
+![png](output\_25\_0.png)
 
 ### K-Nearest Neighbors Model
-
 
 ```python
 from sklearn.neighbors import KNeighborsClassifier
@@ -816,8 +741,6 @@ print("Test prediction: {}".format(predict_KNN))
 ```
 
     Test prediction: [0 0 0 ... 0 0 0]
-    
-
 
 ```python
 #Prediction probability
@@ -831,17 +754,12 @@ print("Prediction probability: {}".format(model_KNN.predict_proba(X_test)))
      [1. 0.]
      [1. 0.]
      [1. 0.]]
-    
-
 
 ```python
 df_KNN = pd.concat([y_test, pd.Series(predict_KNN, name='Predicted_y')], axis=1)
 df_KNN.dropna(axis=0, inplace=True)
 df_KNN.tail()
 ```
-
-
-
 
 <div>
 <style scoped>
@@ -856,6 +774,7 @@ df_KNN.tail()
     .dataframe thead th {
         text-align: right;
     }
+
 </style>
 <table border="1" class="dataframe">
   <thead>
@@ -895,17 +814,13 @@ df_KNN.tail()
 </table>
 </div>
 
-
-
 ### Support Vector Machine Model
-
 
 ```python
 # Supress warnings
 import warnings
 warnings.filterwarnings('ignore')
 ```
-
 
 ```python
 from sklearn.svm import LinearSVC
@@ -916,17 +831,12 @@ print("Test prediction: {}".format(predict_SVM))
 ```
 
     Test prediction: [0 0 0 ... 0 0 0]
-    
-
 
 ```python
 df_SVM = pd.concat([y_test, pd.Series(predict_SVM, name='Predicted_y')], axis=1)
 df_SVM.dropna(axis=0, inplace=True)
 df_SVM.tail()
 ```
-
-
-
 
 <div>
 <style scoped>
@@ -941,6 +851,7 @@ df_SVM.tail()
     .dataframe thead th {
         text-align: right;
     }
+
 </style>
 <table border="1" class="dataframe">
   <thead>
@@ -980,12 +891,9 @@ df_SVM.tail()
 </table>
 </div>
 
-
-
 ## Evaluation
 
 ### Evaluation Model Function
-
 
 ```python
 from sklearn.metrics import classification_report
@@ -1009,7 +917,6 @@ def metrics(y_true, y_pred):
 
 ### Evaluation of Decision Tree Model
 
-
 ```python
 metrics(y_test, predict_DT)
 ```
@@ -1019,22 +926,17 @@ metrics(y_test, predict_DT)
     Recall: 0.3283
     F1 Score: 0.4214
                   precision    recall  f1-score   support
-    
+
                0       0.92      0.97      0.94     11977
                1       0.59      0.33      0.42      1587
-    
+
         accuracy                           0.89     13564
        macro avg       0.75      0.65      0.68     13564
     weighted avg       0.88      0.89      0.88     13564
-    
-    
 
-
-![png](output_38_1.png)
-
+![png](output\_38\_1.png)
 
 ### Evaluation of K-Nearest Neighbor Model
-
 
 ```python
 metrics(y_test, predict_KNN)
@@ -1045,22 +947,17 @@ metrics(y_test, predict_KNN)
     Recall: 0.3359
     F1 Score: 0.3948
                   precision    recall  f1-score   support
-    
+
                0       0.92      0.95      0.93     11977
                1       0.48      0.34      0.39      1587
-    
+
         accuracy                           0.88     13564
        macro avg       0.70      0.64      0.66     13564
     weighted avg       0.86      0.88      0.87     13564
-    
-    
 
-
-![png](output_40_1.png)
-
+![png](output\_40\_1.png)
 
 ### Evaluation of Support Vector Machine Model
-
 
 ```python
 metrics(y_test, predict_SVM)
@@ -1071,22 +968,17 @@ metrics(y_test, predict_SVM)
     Recall: 0.1216
     F1 Score: 0.2029
                   precision    recall  f1-score   support
-    
+
                0       0.89      0.99      0.94     11977
                1       0.61      0.12      0.20      1587
-    
+
         accuracy                           0.89     13564
        macro avg       0.75      0.56      0.57     13564
     weighted avg       0.86      0.89      0.85     13564
-    
-    
 
-
-![png](output_42_1.png)
-
+![png](output\_42\_1.png)
 
 ### Model Comparison
-
 
 ```python
 import numpy as np
@@ -1111,7 +1003,6 @@ def perf_measure(y_actual, y_hat):
     return(TP, FP, TN, FN)
 ```
 
-
 ```python
 classifiers=[]
 classifiers.append(('DT',clf_DT))
@@ -1132,15 +1023,11 @@ for i,v in classifiers:
     cnf_matric_parameter.append((i,TP,FP,TN,FN))
 ```
 
-
 ```python
 column_names=['Algorithm','Accuracy','Precision','Recall','F1-score']
 df1=pd.DataFrame(result,columns=column_names)
 df1
 ```
-
-
-
 
 <div>
 <style scoped>
@@ -1155,6 +1042,7 @@ df1
     .dataframe thead th {
         text-align: right;
     }
+
 </style>
 <table border="1" class="dataframe">
   <thead>
@@ -1196,9 +1084,6 @@ df1
 </table>
 </div>
 
-
-
-
 ```python
 df1.plot(kind='bar', ylim=(0.2,1.0), align='center', colormap="RdBu")
 plt.xticks(np.arange(3), df1['Algorithm'],fontsize=12)
@@ -1206,14 +1091,6 @@ plt.ylabel('Score',fontsize=12)
 plt.legend(bbox_to_anchor=(1.05, 1), loc=2, borderaxespad=0.,fontsize=10)
 ```
 
-
-
-
     <matplotlib.legend.Legend at 0x1d7f8fde970>
 
-
-
-
-![png](output_47_1.png)
-
-
+![png](output\_47\_1.png)

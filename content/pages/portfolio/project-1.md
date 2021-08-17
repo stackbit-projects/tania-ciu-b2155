@@ -1093,4 +1093,4 @@ plt.legend(bbox_to_anchor=(1.05, 1), loc=2, borderaxespad=0.,fontsize=10)
 
     <matplotlib.legend.Legend at 0x1d7f8fde970>
 
-![png](output\_47\_1.png)
+![png](/images/output_47_1.png)

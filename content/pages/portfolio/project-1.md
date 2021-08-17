@@ -398,7 +398,7 @@ for rect in ax.patches:
                 xytext=(0, 5), textcoords='offset points', ha='center', va='bottom') 
 ```
 
-![png](images/output\_10\_0.png)
+![png](/images/output_10_0.png)
 
 ```python
 fig, axs = plt.subplots(ncols=3)

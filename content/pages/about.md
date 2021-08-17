@@ -29,7 +29,7 @@ seo:
       relativeUrl: true
 layout: page
 ---
-
+Hello, my name is Tania Ciu. I have a passion in data science, data analytics, and data visualization. Getting 
 
 ## Education
 

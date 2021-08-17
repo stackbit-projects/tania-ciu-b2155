@@ -48,9 +48,6 @@ CGPA: 3.9 / 4.0
 Published by: PASAS Institute, Singapore
 Credential ID: CISDV 04745</p>
 
-## Skills
-Data Visualization (using PowerBI and Tableau) (Intermediate), Data Analytics (using R and Python Programming; Rapidminer tools) (Intermediate), Data Science (Intermediate), Databases (SQL and MySQL) (Intermediate), Machine Learning (Intermediate), Natural Language Processing (Beginner), Project Management (Intermediate), Microsoft Office (Intermediate).
-
 ## Personal Contact
 LinkedIn:
 Email: tania.ciu@student.umn.ac.id

@@ -30,7 +30,7 @@ seo:
 layout: page
 ---
 
-<img align="right" src="content/pages/portfolio/TaniaCiu1.jpg" />
+<img align="right" src="content/pages/portfolio/TaniaCiu1.jpg" width=100/>
 <div align="justify">
 Hello, my name is Tania Ciu. I have a passion in data science, data analytics, and data visualization. Getting insights out of data is something that I really like. Data visualization and machine learning are some techniques that I am using to achieve this.</div>
 

@@ -33,10 +33,9 @@ sections:
           I'm specialized in analyzing data. Result, trends and recommendations
           are clearly presented in reports or tools.
       - title: Data Visualization
-        content: >-
-          Donec lobortis velit sed suscipit lobortis. Ut non quam metus. Nullam
-          a maximus mi. Quisque justo nunc, sollicitudin euismod euismod at,
-          tincidunt ut tellus.
+        content: >
+          Creation of static and interactive data visualization and dashboards
+          make your data easier to be understood.
       - title: Data Analytics
         content: >
           Get more value from your data with prediction models and machine

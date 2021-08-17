@@ -5,7 +5,6 @@ image: images/about.jpg
 image_alt: photo
 seo:
   title: About Tania
-  description: This is the about us page
   extra:
     - name: 'og:type'
       value: website

@@ -381,7 +381,7 @@ data.hist(figsize=(15,15), density=True, color="#330033")
 plt.show()
 
 ```
-<img src= "output_9_0.jpg" />
+![Image of Yaktocat](https://octodex.github.com/images/yaktocat.png)/>
 ![png histogram](output_9_0.jpg)
 
 ```python

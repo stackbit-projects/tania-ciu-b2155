@@ -1,6 +1,6 @@
 ---
 title: About Tania
-image: /images/TaniaCiu1.jpg
+image: /images/11.jpg
 image_alt: photo
 seo:
   title: About Tania

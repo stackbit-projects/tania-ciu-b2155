@@ -44,7 +44,7 @@ CGPA: 3.9 / 4.0
 ## Certification
 
 **Certified International Specialist in Data Visualization (Founding Stage)**</br>
-Feb 2021 - Sept 2024</br>\
+Feb 2021 - Sept 2024</br>
 Published by: PASAS Institute, Singapore</br>
 Credential ID: CISDV 04745
 

@@ -48,7 +48,7 @@ sections:
           easier.
 seo:
   title: Tania Ciu's Portfolio
-  description: The preview of the Exto theme
+  description: The preview of portfolio
   extra:
     - name: 'og:type'
       value: website

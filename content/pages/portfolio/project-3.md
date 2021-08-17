@@ -399,7 +399,10 @@ ham = ' '.join([text for text in data['text'][data.label == "ham"]])
 generate_wordcloud(ham)
 ```
 
-![png](output\_7\_0.png)
+
+![png](/images/output_7_0.png)
+
+
 
 ```python
 spam = ' '.join([text for text in data['text'][data.label == "spam"]])

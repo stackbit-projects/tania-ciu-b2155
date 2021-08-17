@@ -26,7 +26,7 @@ sections:
     title: Services
     subtitle: >-
       Let me help make better use of your data. My expertise can be used to
-      clean, analy
+      clean, analyze, interpret and visualize you data.
     col_number: two
     is_numbered: true
     grid_items:

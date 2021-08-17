@@ -37,7 +37,7 @@ Currently, I'm enrolled as Information System student in Universitas Multimedia 
 Getting insights out of data is something that I really like. Data visualization and machine learning are some techniques that I am using to achieve this. 
 
 ## Certification
-#### Certified International Specialist in Data Visualization (Founding Stage)
+Certified International Specialist in Data Visualization (Founding Stage)
 Feb 2021 - Sept 2024
 Published by: PASAS Institute, Singapore
 Credential ID: CISDV 04745

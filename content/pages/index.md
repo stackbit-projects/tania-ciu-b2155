@@ -47,7 +47,7 @@ sections:
           Data harvesting, cleaning and reshaping to make your further analyses
           easier.
 seo:
-  title: Stackbit Exto Theme
+  title: Tania Ciu's Portfolio
   description: The preview of the Exto theme
   extra:
     - name: 'og:type'

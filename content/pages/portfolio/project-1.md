@@ -711,7 +711,7 @@ with open("tree.dot") as f:
 graphviz.Source(dot_graph)
 ```
 
-![svg](output\_24\_0.svg)
+![svg](/images/output_24_0.svg)
 
 ```python
 from sklearn import tree

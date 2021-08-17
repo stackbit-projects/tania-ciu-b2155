@@ -382,7 +382,7 @@ plt.show()
 
 ```
 ![Image of Yaktocat](https://octodex.github.com/images/yaktocat.png)/>
-![png histogram](https://https://github.com/stackbit-projects/tania-ciu-b2155/content/pages/portfoliooutput_9_0.jpg)
+![png histogram](https://https://github.com/stackbit-projects/tania-ciu-b2155/content/pages/portfolio/output_9_0.jpg)
 
 ```python
 fig, ax = plt.subplots()

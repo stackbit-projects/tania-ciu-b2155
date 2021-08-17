@@ -57,7 +57,7 @@ Address &nbsp;&nbsp;: Jl.Kirana II No.39, Kota Jambi, Jambi 36134, Indonesia
 <table>
   <tbody>
     <tr>
-      <td>Body content 1</td>
+      <td>LinkedIn</td>
       <td>Body content 2</td>
     </tr>
   </tbody>

@@ -424,7 +424,7 @@ for rect in ax.patches:
 ```
 
 
-![png](output_10_0.png)
+![png](public/imagesoutput_10_0.png)
 
 
 

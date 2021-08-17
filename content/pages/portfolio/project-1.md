@@ -728,7 +728,7 @@ imgplot = plt.imshow(img)
 plt.show() 
 ```
 
-![png](output\_25\_0.png)
+![png](/images/output_25_0.png)
 
 ### K-Nearest Neighbors Model
 

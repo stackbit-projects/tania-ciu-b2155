@@ -48,6 +48,9 @@ CGPA: 3.9 / 4.0
 Published by: PASAS Institute, Singapore
 Credential ID: CISDV 04745</p>
 
+## Skills
+
+
 ## Personal Contact
 LinkedIn:
 Email: tania.ciu@student.umn.ac.id

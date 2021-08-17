@@ -503,7 +503,6 @@ plot_confusion_matrix(conf_matrix_svm)
 
 ![png](/images/output_17_1.png)
 
-
 *Naive Bayes Algorithm*
 
 ```python

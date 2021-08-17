@@ -1,5 +1,5 @@
 ---
-title: Project Title 2
+title: Multiclass Text Classification using Long Short-Term Memory - Product Review & Ratign Prediction
 subtitle: Optional Project Subtitle
 date: '2019-04-30'
 thumb_image: images/2_thumb.jpg

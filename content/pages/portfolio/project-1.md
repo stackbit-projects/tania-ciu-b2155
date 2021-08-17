@@ -934,7 +934,7 @@ metrics(y_test, predict_DT)
        macro avg       0.75      0.65      0.68     13564
     weighted avg       0.88      0.89      0.88     13564
 
-![png](output\_38\_1.png)
+![png](/images/output_38_1.png)
 
 ### Evaluation of K-Nearest Neighbor Model
 
@@ -955,7 +955,7 @@ metrics(y_test, predict_KNN)
        macro avg       0.70      0.64      0.66     13564
     weighted avg       0.86      0.88      0.87     13564
 
-![png](output\_40\_1.png)
+![png](/images/output_40_1.png)
 
 ### Evaluation of Support Vector Machine Model
 
@@ -976,7 +976,7 @@ metrics(y_test, predict_SVM)
        macro avg       0.75      0.56      0.57     13564
     weighted avg       0.86      0.89      0.85     13564
 
-![png](output\_42\_1.png)
+![png](/images/output_42_1.png)
 
 ### Model Comparison
 

@@ -1,8 +1,10 @@
 ---
-title: Multiclass Text Classification using Long Short-Term Memory - Product Review & Ratign Prediction
+title: >-
+  Multiclass Text Classification using Long Short-Term Memory - Product Review &
+  Ratign Prediction
 subtitle: Jan 2021 - Jun 2021
 date: '2019-04-30'
-thumb_image: images/2_thumb.jpg
+thumb_image: /images/productreview1.jpg
 thumb_image_alt: An orange on a blue background
 image: images/2.jpg
 image_alt: An orange on a blue background

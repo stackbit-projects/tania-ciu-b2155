@@ -2169,7 +2169,7 @@ plt.show()
 ```
 
 
-![png](output_68_0.png)
+![png](/images/output_68_0.png)
 
 
 Linear Regression

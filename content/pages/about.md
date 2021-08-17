@@ -62,6 +62,6 @@ Address &nbsp;&nbsp;: Jl.Kirana II No.39, Kota Jambi, Jambi 36134, Indonesia
     </tr>
     <tr>
         <td>Email</td>
-        <td>
+        <td>tania.ciu@student.umn.ac.id </td>
     </tr>
   </tbody>

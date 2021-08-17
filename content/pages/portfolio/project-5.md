@@ -1,6 +1,6 @@
 ---
 title: Twitter Sentiment Analysis on Bank Nasional Indonesia Stock
-subtitle: Optional Project Subtitle
+subtitle: 
 date: '2019-01-05'
 thumb_image: images/5_thumb.jpg
 thumb_image_alt: A white gamepad on a green background

@@ -383,6 +383,7 @@ plt.show()
 ```
 
 ![lala](file:///images/hist.png)
+<img src="images/hist.png" />
 
 ```python
 fig, ax = plt.subplots()

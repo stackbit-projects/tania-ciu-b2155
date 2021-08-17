@@ -409,7 +409,10 @@ spam = ' '.join([text for text in data['text'][data.label == "spam"]])
 generate_wordcloud(spam)
 ```
 
-![png](output\_8\_0.png)
+
+![png](/images/output_8_0.png)
+
+
 
 ```python
 from nltk.stem import SnowballStemmer

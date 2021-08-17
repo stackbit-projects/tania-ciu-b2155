@@ -382,6 +382,7 @@ plt.show()
 
 ```
 <img src="images\output_9_0.jpg">
+![lala]()
 
 ```python
 fig, ax = plt.subplots()

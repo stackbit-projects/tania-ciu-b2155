@@ -33,8 +33,8 @@ layout: page
 ---
 
 Hello, my name is Tania Ciu.
-Currently, I'm enrolled as Information System student in Universitas Multimedia Nusantara.
-
+Currently, I'm enrolled as Information System student in Universitas Multimedia Nusantara. I have a passion in data analysis, data science, data analytics, and data visualization.
+Getting insights out of data is something that I really like. Data visualization and machine learning are some techniques that I am using to achieve this.
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus vel venenatis augue. Suspendisse tincidunt, nibh eget sodales eleifend, lectus magna elementum lorem, ut bibendum tellus turpis quis risus. Vivamus sagittis enim est, et semper lectus hendrerit ut.
 
 >The world always seems brighter when you’ve just made something that wasn’t there before. - Neil Gaiman

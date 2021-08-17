@@ -49,7 +49,7 @@ Published by: PASAS Institute, Singapore
 Credential ID: CISDV 04745</p>
 
 ## Personal Contact
-LinkedIn:
+LinkedIn: https://www.linkedin.com/in/tania-ciu-3b558b1a2/
 Email: tania.ciu@student.umn.ac.id
 Phone: 0852-1329-0846
 

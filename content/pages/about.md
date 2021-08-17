@@ -53,8 +53,3 @@ LinkedIn &nbsp;: https://www.linkedin.com/in/tania-ciu-3b558b1a2/
 Email &nbsp;&nbsp;: tania.ciu@student.umn.ac.id  
 Phone &nbsp;&nbsp;: 0852-1329-0846
 Address: Jl.Kirana II No.39, Kota Jambi, Jambi 36134, Indonesia
-
-
->The world always seems brighter when you’ve just made something that wasn’t there before. - Neil Gaiman
-
-*Thank You for reading!*

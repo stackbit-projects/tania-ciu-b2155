@@ -2232,7 +2232,7 @@ plt.title('Plot Close dengan Negative Sentiment')
 
 
 
-![png](output_73_1.png)
+![png](/images/output_73_1.png)
 
 
 

@@ -42,6 +42,7 @@ Certified International Specialist in Data Visualization (Founding Stage)
 Feb 2021 - Sept 2024
 
 Published by: PASAS Institute, Singapore
+
 Credential ID: CISDV 04745
 
 

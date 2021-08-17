@@ -382,7 +382,7 @@ plt.show()
 
 ```
 <img src="images\output_9_0.jpg">
-![lala]()
+![lala](images\output_9_0.png)
 
 ```python
 fig, ax = plt.subplots()

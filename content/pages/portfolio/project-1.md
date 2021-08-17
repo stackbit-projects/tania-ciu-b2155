@@ -405,7 +405,7 @@ plt.show()
 ```
 
 
-![png1](./public/images/output_9_0.png)
+![png1](public/images/output_9_0.png)
 
 
 

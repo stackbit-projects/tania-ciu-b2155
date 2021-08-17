@@ -404,7 +404,7 @@ data.hist(figsize=(15,15), density=True, color="#330033")
 plt.show()
 ```
 
-
+images/1_thumb.jpg
 ![png hist](images/output_9_0.jpg)
 
 

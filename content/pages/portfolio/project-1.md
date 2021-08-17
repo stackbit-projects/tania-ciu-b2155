@@ -406,7 +406,7 @@ plt.show()
 
 
 ![png hist](images/output_9_0.jpg)
-![title](../images/output_11_1.png)
+![title](../../images/output_11_1.png)
 
 
 ```python

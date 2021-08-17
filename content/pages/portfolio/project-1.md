@@ -381,8 +381,8 @@ data.hist(figsize=(15,15), density=True, color="#330033")
 plt.show()
 
 ```
-
-![png histogram](output_9_0.jpg)
+<img>
+![png histogram](output_9_0.jpg)</img>
 
 ```python
 fig, ax = plt.subplots()

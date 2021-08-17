@@ -51,5 +51,5 @@ Credential ID: CISDV 04745
 ## Personal Contact
 LinkedIn &nbsp;: https://www.linkedin.com/in/tania-ciu-3b558b1a2/  
 Email &nbsp;&nbsp;: tania.ciu@student.umn.ac.id  
-Phone &nbsp;&nbsp;: 0852-1329-0846  
+Phone &nbsp;&nbsp;&nbsp;: 0852-1329-0846  
 Address: Jl.Kirana II No.39, Kota Jambi, Jambi 36134, Indonesia

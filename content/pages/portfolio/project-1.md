@@ -381,7 +381,7 @@ data.hist(figsize=(15,15), density=True, color="#330033")
 plt.show()
 
 ```
-<img src="output_9_0.jpg" />
+<img src= "output_9_0.jpg" />
 ![png histogram](output_9_0.jpg)
 
 ```python

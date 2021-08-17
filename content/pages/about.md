@@ -55,12 +55,6 @@ Phone &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: 0852-1329-0846
 Address &nbsp;&nbsp;: Jl.Kirana II No.39, Kota Jambi, Jambi 36134, Indonesia
 
 <table>
-  <thead>
-    <tr>
-      <th>Header content 1</th>
-      <th>Header content 2</th>
-    </tr>
-  </thead>
   <tbody>
     <tr>
       <td>Body content 1</td>

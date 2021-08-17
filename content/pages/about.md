@@ -36,10 +36,10 @@ Hello, my name is Tania Ciu.
 I have a passion in data analysis, data science, data analytics, and data visualization. Getting insights out of data is something that I really like. Data visualization and machine learning are some techniques that I am using to achieve this. 
 
 ## Education
-**Universitas Multimedia Nusantara**
+**Universitas Multimedia Nusantara**</br>
 Aug 2018 - Present </br>
-Bachelor's Degree
-Majoring in Information System
+Bachelor's Degree</br>
+Majoring in Information System</br>
 CGPA: 3.9 / 4.0
 
 ## Certification

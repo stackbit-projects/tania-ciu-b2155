@@ -382,7 +382,7 @@ plt.show()
 
 ```
 
-![png histo](mages/hist.pngimages/hist.png)
+![png histo](/images/client.jpg)
 
 ```python
 fig, ax = plt.subplots()

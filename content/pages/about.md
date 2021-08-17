@@ -36,6 +36,9 @@ Hello, my name is Tania Ciu.
 Currently, I'm enrolled as Information System student in Universitas Multimedia Nusantara with CGPA 3.9/4.0. I have a passion in data analysis, data science, data analytics, and data visualization. 
 Getting insights out of data is something that I really like. Data visualization and machine learning are some techniques that I am using to achieve this. 
 
+## Certification
+
+
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus vel venenatis augue. Suspendisse tincidunt, nibh eget sodales eleifend, lectus magna elementum lorem, ut bibendum tellus turpis quis risus. Vivamus sagittis enim est, et semper lectus hendrerit ut.
 

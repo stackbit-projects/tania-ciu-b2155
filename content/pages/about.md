@@ -31,8 +31,8 @@ seo:
 layout: page
 ---
 
-<div style="text-align: right"> yourHello, my name is Tania Ciu.
-I have a passion in data analysis, data science, data analytics, and data visualization. Getting insights out of data is something that I really like. Data visualization and machine learning are some techniques that I am using to achieve this. 
+<div style="text-align: justify"> yourHello, my name is Tania Ciu.
+I have a passion in data analysis, data science, data analytics, and data visualization. Getting insights out of data is something that I really like. Data visualization and machine learning are some techniques that I am using to achieve this. </div>
 
 ## Education
 **Universitas Multimedia Nusantara**</br>

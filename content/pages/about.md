@@ -45,8 +45,8 @@ CGPA: 3.9 / 4.0
 ## Certification
 **Certified International Specialist in Data Visualization (Founding Stage)**
 Feb 2021 - Sept 2024  
-&nbsp;Published by: PASAS Institute, Singapore  
-&nbsp;Credential ID: CISDV 04745
+Published by: PASAS Institute, Singapore  
+Credential ID: CISDV 04745
 
 ## Personal Contact
 LinkedIn &nbsp;: https://www.linkedin.com/in/tania-ciu-3b558b1a2/  

@@ -437,7 +437,7 @@ ax.set_ylabel('Count', fontsize = 15)
 
     Text(22.200000000000017, 0.5, 'Count')
 
-![png](output\_13\_1.png)
+![png](/images/output_13_1.png)
 
 ## Data Preparation
 

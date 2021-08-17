@@ -46,7 +46,7 @@ sections:
         content: >
           Data harvesting, cleaning and reshaping to make your further analyses
           easier.
-  <!--- - section_id: testimonials
+  - section_id: testimonials
     type: section_testimonials
     title: Testimonials
     subtitle: An optional subtitle of the section

@@ -1,6 +1,6 @@
 ---
 title: Multiclass Text Classification using Long Short-Term Memory - Product Review & Ratign Prediction
-subtitle: Optional Project Subtitle
+subtitle: Jan 2021 - Jun 2021
 date: '2019-04-30'
 thumb_image: images/2_thumb.jpg
 thumb_image_alt: An orange on a blue background

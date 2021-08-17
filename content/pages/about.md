@@ -29,7 +29,6 @@ seo:
       relativeUrl: true
 layout: page
 ---
-
 <img align="right" src="content/pages/portfolio/TaniaCiu1.jpg" width=200/>
 <div align="justify">
 Hello, my name is Tania Ciu. I have a passion in data science, data analytics, and data visualization. Getting insights out of data is something that I really like. Data visualization and machine learning are some techniques that I am using to achieve this.</div>
@@ -51,7 +50,10 @@ Credential ID: CISDV 04745
 
 ## Personal Contact
 
-LinkedIn : https://www.linkedin.com/in/tania-ciu-3b558b1a2/\
-Email       : tania.ciu@student.umn.ac.id\
-Phone      : 0852-1329-0846\
+LinkedIn : https://www.linkedin.com/in/tania-ciu-3b558b1a2/\</br>
+
+Email       : tania.ciu@student.umn.ac.id\</br>
+
+Phone      : 0852-1329-0846\</br>
+
 Address   : Jl.Kirana II No.39, Kota Jambi, Jambi 36134, Indonesia

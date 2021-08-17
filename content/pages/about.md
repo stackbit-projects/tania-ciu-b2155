@@ -38,7 +38,7 @@ Getting insights out of data is something that I really like. Data visualization
 
 ## Certification
 Certified International Specialist in Data Visualization (Founding Stage)
-Feb 2021 - SEpt 2024
+Feb 2021 - Sept 2024
 
 
 

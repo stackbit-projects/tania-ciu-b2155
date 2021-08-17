@@ -381,7 +381,7 @@ data.hist(figsize=(15,15), density=True, color="#330033")
 plt.show()
 
 ```
-<img align="left" width="100" height="100" src="images/output_9_0.jpg">
+<img src="images/output_9_0.jpg">
 
 ```python
 fig, ax = plt.subplots()

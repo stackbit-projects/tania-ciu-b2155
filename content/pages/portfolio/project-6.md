@@ -1,8 +1,10 @@
 ---
-title: Prediction of Cardiovascular Disease through Comparative Analysis with Data Mining Classification Algorithm Approach
+title: >-
+  Prediction of Cardiovascular Disease through Comparative Analysis with Data
+  Mining Classification Algorithm Approach
 subtitle: Aug 2019 - Feb 2020
 date: '2018-12-18'
-thumb_image: images/6_thumb.jpg
+thumb_image: /images/cardio.jpg
 thumb_image_alt: A handheld game console on a yellow background
 image: images/6.jpg
 image_alt: A handheld game console on a yellow background

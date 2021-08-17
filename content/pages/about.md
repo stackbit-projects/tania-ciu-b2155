@@ -50,8 +50,8 @@ Credential ID: CISDV 04745
 
 ## Personal Contact
 LinkedIn &nbsp;: https://www.linkedin.com/in/tania-ciu-3b558b1a2/  
-Email&nbsp;&nbsp;: tania.ciu@student.umn.ac.id  
-Phone&nbsp;&nbsp;: 0852-1329-0846
+Email &nbsp;&nbsp;: tania.ciu@student.umn.ac.id  
+ &nbsp;&nbsp;: 0852-1329-0846
 
 
 >The world always seems brighter when you’ve just made something that wasn’t there before. - Neil Gaiman

@@ -1,12 +1,11 @@
 ---
-title: >-
-Logistic Regression Prediction Model for Cardiovascular Disease
-subtitle: Aug 2019 - Feb 2020
-date: '2018-12-18'
-thumb_image: /images/cardio.jpg
-thumb_image_alt: cardio
-image: /images/cardio.jpg
-image_alt: cardio
+title: Twitter Sentiment Analysis on Bank Nasional Indonesia Stock
+subtitle: Aug 2020 - Dec 2020
+date: '2019-01-05'
+thumb_image: /images/stock.jpg
+thumb_image_alt: A white gamepad on a green background
+image: /images/stock.jpg
+image_alt: A white gamepad on a green background
 seo:
   title: Project Title 6
   description: This is the project 6 description

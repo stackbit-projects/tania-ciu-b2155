@@ -173,7 +173,7 @@ normalizeddataf\[,n\]=(newdataf\[,n\]-min(dataf\[,n\]))/(max(dataf)-min(dataf))
     plot(svm_Linear)
     testsvm <- svm(target ~ . , data = train_data,kernel = "radial", gamma = 1, cost = 1, scale = FALSE)
     testsvm
-    #Prediction
+### Prediction
     SVMpred <- predict(svm_Linear, newdata = test_data)
     SVMpred
     plot(SVMpred, col=c(1,2))

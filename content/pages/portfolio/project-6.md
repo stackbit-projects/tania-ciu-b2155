@@ -1,7 +1,6 @@
 ---
 title: >-
-Logistic Regression Prediction Model for 
-Cardiovascular Disease
+Logistic Regression Prediction Model for Cardiovascular Disease
 subtitle: Aug 2019 - Feb 2020
 date: '2018-12-18'
 thumb_image: /images/cardio.jpg

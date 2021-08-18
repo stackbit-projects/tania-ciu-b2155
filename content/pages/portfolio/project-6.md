@@ -81,8 +81,8 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
     title="Variables in Data")
 
 
-    Plot Correlation
-    ```{r, echo = TRUE, message = FALSE, warning = FALSE}
+## Plot Correlation
+    {r, echo = TRUE, message = FALSE, warning = FALSE}
     #install.packages("GGally")
     library(GGally)
     ggcorr(Data, nbreaks=8, 

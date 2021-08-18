@@ -98,8 +98,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
     list=FALSE) 
     train_data\<-Data1\[trainIndex,\] train_data
     describe(train_data)
-
-test_data\<-Data1\[-trainIndex,\] test_data describe(test_data)
+    test_data\<-Data1\[-trainIndex,\] test_data describe(test_data)
 
 
     Modeling Logistic Regression

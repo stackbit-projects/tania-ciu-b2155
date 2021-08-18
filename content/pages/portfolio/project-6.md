@@ -146,7 +146,7 @@ sample
     test_target\<-test\$target 
     test_target
 
-\#normalisasi data normalise\<-function(newdataf,dataf) {
+### normalisasi data normalise\<-function(newdataf,dataf) {
 normalizeddataf=newdataf for(n in names(newdataf)) {
 normalizeddataf\[,n\]=(newdataf\[,n\]-min(dataf\[,n\]))/(max(dataf)-min(dataf))
 } return(normalizeddataf) }

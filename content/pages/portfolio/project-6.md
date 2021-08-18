@@ -91,10 +91,11 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
            label_size=5, 
            label_color='black')
 
-Split data \`\`\`{r, echo = TRUE, message = FALSE, warning = FALSE}
-set.seed(293) trainIndex\<-createDataPartition(y=Data1\$target , p=0.7,
-list=FALSE) train_data\<-Data1\[trainIndex,\] train_data
-describe(train_data)
+## Split data
+    {r, echo = TRUE, message = FALSE, warning = FALSE}
+    set.seed(293) trainIndex\<-createDataPartition(y=Data1\$target , p=0.7,
+    list=FALSE) train_data\<-Data1\[trainIndex,\] train_data
+    describe(train_data)
 
 test_data\<-Data1\[-trainIndex,\] test_data describe(test_data)
 

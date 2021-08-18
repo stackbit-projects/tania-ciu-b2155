@@ -203,5 +203,5 @@ Validation Data with K-Fold Cross Validation Naive Bayes
 Validation Data with Confusion Matrix Logistic Regression
 `{r, echo = TRUE, message = FALSE, warning = FALSE} library(tools) conf1<-confusionMatrix(table(LogisticPred,                              test_data$target)) conf1`
 
-Validation Data with
+
 

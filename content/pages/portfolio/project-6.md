@@ -40,7 +40,7 @@ layout: project
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Suspendisse faucibus interdum posuere lorem ipsum dolor. Malesuada fames ac turpis egestas sed tempus urna et. Non odio euismod lacinia at quis risus. Nisl vel pretium lectus quam id leo in vitae turpis. Dolor sit amet consectetur adipiscing elit ut. Id donec ultrices tincidunt arcu non sodales neque sodales ut. Risus ultricies tristique nulla aliquet enim. Nulla aliquet porttitor lacus luctus accumsan tortor posuere ac ut. Et leo duis ut diam. Auctor neque vitae tempus quam pellentesque. Scelerisque in dictum non consectetur a erat nam at. Quisque sagittis purus sit amet volutpat consequat. Vulputate enim nulla aliquet porttitor lacus.
 
 Mengimport library
-    ```{r, echo = TRUE, message = FALSE, warning = FALSE} #install.packages("DataExplorer") #install.packages("psych") library(DataExplorer) library(data.table) library(dplyr) library(car) library(psych) library(caret) library(e1071) library(randomForest) library(devtools) library(caret)`
+    ```{r, echo = TRUE, message = FALSE, warning = FALSE} #install.packages("DataExplorer") #install.packages("psych") library(DataExplorer) library(data.table) library(dplyr) library(car) library(psych) library(caret) library(e1071) library(randomForest) library(devtools) library(caret)
 
 Retrieve Data
 `{r, echo = TRUE, message = FALSE, warning = FALSE} library(readr) heart <- read_csv("C:/Users/Tania Ciu/Downloads/DataAnalysis/heart.csv") View(heart) Data<-heart`

@@ -51,7 +51,6 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
     library(e1071) 
     library(randomForest) 
     library(devtools) library(caret)
-    ```
 
 Retrieve Data
 `{r, echo = TRUE, message = FALSE, warning = FALSE} library(readr) heart <- read_csv("C:/Users/Tania Ciu/Downloads/DataAnalysis/heart.csv") View(heart) Data<-heart`

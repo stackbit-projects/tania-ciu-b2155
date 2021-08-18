@@ -114,7 +114,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
     LogisticPrediction <- predict(LogisticMod, 
                                   test_data, 
                                   type='response')
-    LogisticPrediction
+## LogisticPrediction
     summary(LogisticPrediction)
     plot(LogisticPrediction)
 

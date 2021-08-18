@@ -41,7 +41,8 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 ## Mengimport library
     {r, echo = TRUE, message = FALSE, warning = FALSE} 
-    #install.packages("DataExplorer")  #install.packages("psych") 
+    #install.packages("DataExplorer")
+    #install.packages("psych") 
     library(DataExplorer) 
     library(data.table) 
     library(dplyr) 
@@ -52,8 +53,8 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
     library(randomForest) 
     library(devtools) library(caret)
 
-Retrieve Data
-`{r, echo = TRUE, message = FALSE, warning = FALSE} library(readr) heart <- read_csv("C:/Users/Tania Ciu/Downloads/DataAnalysis/heart.csv") View(heart) Data<-heart`
+## Retrieve Data
+{r, echo = TRUE, message = FALSE, warning = FALSE} library(readr) heart <- read_csv("C:/Users/Tania Ciu/Downloads/DataAnalysis/heart.csv") View(heart) Data<-heart`
 
 Variable as factor
 `{r, echo = TRUE, message = FALSE, warning = FALSE} Data1 <- copy(Data) Data1$sex <- as.factor(Data1$sex) Data1$cp <- as.factor(Data1$cp) Data1$fbs <- as.factor(Data1$fbs) Data1$restecg <- as.factor(Data1$restecg) Data1$exang <- as.factor(Data1$exang) Data1$ca <- as.factor(Data1$ca) Data1$thal <- as.factor(Data1$thal) Data1$target <- as.factor(Data1$target) describe(Data1) str(Data1)`

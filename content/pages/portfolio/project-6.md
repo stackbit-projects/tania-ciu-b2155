@@ -160,12 +160,11 @@ normalizeddataf\[,n\]=(newdataf\[,n\]-min(dataf\[,n\]))/(max(dataf)-min(dataf))
     test_norm\<-normalise(test_x\[1:13\],train_x\[1:13\]) 
     test_norm
 
-predictKNN\<-knn(train=train_norm,test = test_norm, cl=train_target,
-k=7) predictKNN plot(predictKNN, col = c("darkgreen", "darkblue"))
+    predictKNN\<-knn(train=train_norm,test = test_norm, cl=train_target,
+    k=7) predictKNN plot(predictKNN, col = c("darkgreen", "darkblue"))
 
-
-    Modeling Suppot Vector Machine
-    ```{r, echo = TRUE, message = FALSE, warning = FALSE}
+## Modeling Suppot Vector Machine
+    {r, echo = TRUE, message = FALSE, warning = FALSE}
     trctrl <- trainControl(method = "repeatedcv", number = 10, repeats = 3)
 
     svm_Linear <- train(target ~., data = train_data, trControl = trctrl, 

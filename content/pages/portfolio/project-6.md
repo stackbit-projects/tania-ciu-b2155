@@ -75,9 +75,10 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
     describe(Data1) 
     str(Data1)`
 
-Plot histogram \`\`\`{r, echo = TRUE, message = FALSE, warning = FALSE}
-library(ggplot2) plot_histogram(Data, ggtheme = theme_bw(),
-title="Variables in Data")
+## Plot histogram
+    {r, echo = TRUE, message = FALSE, warning = FALSE}
+    library(ggplot2) plot_histogram(Data, ggtheme = theme_bw(),
+    title="Variables in Data")
 
 
     Plot Correlation

@@ -137,11 +137,14 @@ sample
     train_x\<-subset(train\[,1:13\]) 
     train_x
 
-test_x\<-subset(test\[,1:13\]) test_x
+    test_x\<-subset(test\[,1:13\]) 
+    test_x
 
-train_target\<-train\$target train_target
+    train_target\<-train\$target 
+    train_target
 
-test_target\<-test\$target test_target
+    test_target\<-test\$target 
+    test_target
 
 \#normalisasi data normalise\<-function(newdataf,dataf) {
 normalizeddataf=newdataf for(n in names(newdataf)) {

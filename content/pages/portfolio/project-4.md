@@ -64,7 +64,3 @@ The impact of flooding which is quite extensive on the community makes flooding 
 
 ### Dashboard | Quarterly Forecasting of Average Temperature, Rainfall, and Number of Floods in Indonesia
 ![png](/images/10.png)
-
-
-
-

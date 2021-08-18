@@ -5,9 +5,9 @@ Cardiovascular Disease
 subtitle: Aug 2019 - Feb 2020
 date: '2018-12-18'
 thumb_image: /images/cardio.jpg
-thumb_image_alt: A handheld game console on a yellow background
+thumb_image_alt: cardio
 image: /images/cardio.jpg
-image_alt: A handheld game console on a yellow background
+image_alt: cardio
 seo:
   title: Project Title 6
   description: This is the project 6 description

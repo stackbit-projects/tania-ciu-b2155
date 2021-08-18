@@ -41,7 +41,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 ## Mengimport library
     {r, echo = TRUE, message = FALSE, warning = FALSE} 
-    #install.packages("DataExplorer") #install.packages("psych") 
+    #install.packages("DataExplorer")  #install.packages("psych") 
     library(DataExplorer) 
     library(data.table) 
     library(dplyr) 

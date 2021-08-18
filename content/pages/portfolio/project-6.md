@@ -154,9 +154,11 @@ normalizeddataf\[,n\]=(newdataf\[,n\]-min(dataf\[,n\]))/(max(dataf)-min(dataf))
 } 
     return(normalizeddataf) }
 
-train_norm\<-normalise(train_x\[1:13\],train_x\[1:13\]) train_norm
+    train_norm\<-normalise(train_x\[1:13\],train_x\[1:13\]) 
+    train_norm
 
-test_norm\<-normalise(test_x\[1:13\],train_x\[1:13\]) test_norm
+    test_norm\<-normalise(test_x\[1:13\],train_x\[1:13\]) 
+    test_norm
 
 predictKNN\<-knn(train=train_norm,test = test_norm, cl=train_target,
 k=7) predictKNN plot(predictKNN, col = c("darkgreen", "darkblue"))

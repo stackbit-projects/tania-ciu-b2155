@@ -131,7 +131,8 @@ sample
     train\<-subset(heart, sample==TRUE) 
     train
 
-test\<-subset(heart, sample==FALSE) test
+    test\<-subset(heart, sample==FALSE) 
+    test
 
 train_x\<-subset(train\[,1:13\]) train_x
 

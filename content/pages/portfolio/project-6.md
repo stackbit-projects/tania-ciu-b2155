@@ -183,22 +183,6 @@ normalizeddataf\[,n\]=(newdataf\[,n\]-min(dataf\[,n\]))/(max(dataf)-min(dataf))
 Validation Data with K-Fold Cross Validation Logistic regression
 `{r, echo = TRUE, message = FALSE, warning = FALSE} library(boot) set.seed(293) glm.fit <- glm(target ~ age+sex+trestbps                +chol+fbs+restecg                +thalach+exang+oldpeak                +slope+ca+thal,                 family = quasibinomial,                 data = Data) cv.err.10 <- cv.glm(data = Data,                      glmfit = glm.fit,                     K = 10) cv.err.10$delta`
 
-Validation Data with K-Fold Cross Validation K-Nearest Neighbor
-\`\`\`{r, echo = TRUE, message = FALSE, warning = FALSE} library(klaR)
-train.control \<- trainControl(method = "repeatedcv", number = 10) \#
-Train the model Knn_cv \<- train(target \~., data = train_data, method =
-"knn", trControl = train.control) \# Summarize the results print(Knn_cv)
-
-
-    Validation Data with K-Fold Cross Validation Support Vector Machine
-    ```{r, echo = TRUE, message = FALSE, warning = FALSE}
-    set.seed(293)
-    tunesvm <- tune(svm, target ~ ., data = train_data, kernel = "sigmoid",
-                    ranges = list(cost = 0.001))
-    summary(tunesvm)
-
-Validation Data with K-Fold Cross Validation Naive Bayes
-`{r, echo = TRUE, message = FALSE, warning = FALSE} library(klaR) train_control <- trainControl(method="cv", number=10) # train the model NB_cv<- train(target~., data=test_data, trControl=train_control, method="nb") # summarize results print(NB_cv)`
 
 Validation Data with Confusion Matrix Logistic Regression
 `{r, echo = TRUE, message = FALSE, warning = FALSE} library(tools) conf1<-confusionMatrix(table(LogisticPred,                              test_data$target)) conf1`

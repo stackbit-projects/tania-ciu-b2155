@@ -151,7 +151,8 @@ sample
 normalizeddataf=newdataf
     for(n in names(newdataf)) {
 normalizeddataf\[,n\]=(newdataf\[,n\]-min(dataf\[,n\]))/(max(dataf)-min(dataf))
-} return(normalizeddataf) }
+} 
+return(normalizeddataf) }
 
 train_norm\<-normalise(train_x\[1:13\],train_x\[1:13\]) train_norm
 

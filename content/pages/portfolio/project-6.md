@@ -203,10 +203,5 @@ Validation Data with K-Fold Cross Validation Naive Bayes
 Validation Data with Confusion Matrix Logistic Regression
 `{r, echo = TRUE, message = FALSE, warning = FALSE} library(tools) conf1<-confusionMatrix(table(LogisticPred,                              test_data$target)) conf1`
 
-Validation Data with Confusion Matrix K-Nearest Neighbor
-`{r, echo = TRUE, message = FALSE, warning = FALSE} library(tools) conf2<-confusionMatrix(table(predictKNN,                              test_target)) conf2`
-Validation Data with Confusion Matrix Support Vector Machine
-`{r, echo = TRUE, message = FALSE, warning = FALSE} library(tools) conf3<-confusionMatrix(table(SVMpred,                              test_data$target)) conf3`
-Validation Data with Confusion Matrix Naive Bayes
-`{r, echo = TRUE, message = FALSE, warning = FALSE} library(tools) conf4<-confusionMatrix(table(NBpred,                              test_data$target)) conf4`
+Validation Data with
 

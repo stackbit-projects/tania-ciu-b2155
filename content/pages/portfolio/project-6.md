@@ -1,41 +1,39 @@
 ---
-title: >-
-Logistic Regression Prediction Model for Cardiovascular Disease
+title: Logistic Regression Prediction Model for Cardiovascular Disease
 subtitle: Aug 2019 - Feb 2020
-date: '2018-12-18'
-thumb_image: /images/cardio.jpg
+date: '2019-01-05'
+thumb_image: /images/cardio.jp
 thumb_image_alt: cardio
-image: /images/cardio.jpg
+image: /images/cardio.jp
 image_alt: cardio
 seo:
-  title: Project Title 6
-  description: This is the project 6 description
+  title: Project Title 5
+  description: This is the project 5 description
   extra:
     - name: 'og:type'
       value: website
       keyName: property
     - name: 'og:title'
-      value: Project Title 6
+      value: Project Title 5
       keyName: property
     - name: 'og:description'
-      value: This is the project 6 description
+      value: This is the project 5 description
       keyName: property
     - name: 'og:image'
-      value: images/6.jpg
+      value: images/5.jpg
       keyName: property
       relativeUrl: true
     - name: 'twitter:card'
       value: summary_large_image
     - name: 'twitter:title'
-      value: Project Title 6
+      value: Project Title 5
     - name: 'twitter:description'
-      value: This is the project 6 description
+      value: This is the project 5 description
     - name: 'twitter:image'
-      value: images/6.jpg
+      value: images/5.jpg
       relativeUrl: true
 layout: project
 ---
-
 The number of cardiovascular disease sufferes is also increasing yearly. This disease occurs due to several factors, such as age, blood pressure, cholesterol levels, diabetes, hypertension, genes, obesity, and unhealthy lifestyles. Various symptoms can be identified through physical signs such as chest pain, shortness of breath, dizziness, and easy feeling of fatigue.
 
 Cardiovascular disease identification techniques are complicated to do. It is essential to know the the complication of cardiovascular disease can give a impact on one's life as a whole. The diagnosis and treatment of cardiovascular disease are very complex. While still using invasive-based techniques through analysis of the patients medical history, report of physical examinations performed by the medical tend to be less accurate and require a relatively long time. For this reason, a support system is implemented to predict cardiovascular disease through a machine learning model.

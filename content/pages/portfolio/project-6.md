@@ -100,9 +100,8 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
     describe(train_data)
     test_data\<-Data1\[-trainIndex,\] test_data describe(test_data)
 
-
-    Modeling Logistic Regression
-    ```{r, echo = TRUE, message = FALSE, warning = FALSE}
+## Modeling Logistic Regression
+    {r, echo = TRUE, message = FALSE, warning = FALSE}
     LogisticMod <- glm(target ~ age+sex+trestbps+chol+fbs+restecg+thalach+exang+oldpeak+slope+ca+thal, data=train_data, family="binomial"(link="logit"))
     LogisticPred <- predict(LogisticMod, test_data, 
                             type='response')

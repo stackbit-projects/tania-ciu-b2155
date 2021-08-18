@@ -36,7 +36,6 @@ seo:
 layout: project
 ---
 
-fa
 
 ## Mengimport library
     {r, echo = TRUE, message = FALSE, warning = FALSE} 

@@ -41,6 +41,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 Mengimport library
     ```{r, echo = TRUE, message = FALSE, warning = FALSE} #install.packages("DataExplorer") #install.packages("psych") library(DataExplorer) library(data.table) library(dplyr) library(car) library(psych) library(caret) library(e1071) library(randomForest) library(devtools) library(caret)
+    ```
 
 Retrieve Data
 `{r, echo = TRUE, message = FALSE, warning = FALSE} library(readr) heart <- read_csv("C:/Users/Tania Ciu/Downloads/DataAnalysis/heart.csv") View(heart) Data<-heart`

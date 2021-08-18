@@ -93,7 +93,8 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 ## Split data
     {r, echo = TRUE, message = FALSE, warning = FALSE}
-    set.seed(293) trainIndex\<-createDataPartition(y=Data1\$target , p=0.7,
+    set.seed(293) 
+    trainIndex\<-createDataPartition(y=Data1\$target , p=0.7,
     list=FALSE) train_data\<-Data1\[trainIndex,\] train_data
     describe(train_data)
 

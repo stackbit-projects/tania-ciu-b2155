@@ -178,8 +178,14 @@ normalizeddataf\[,n\]=(newdataf\[,n\]-min(dataf\[,n\]))/(max(dataf)-min(dataf))
     SVMpred
     plot(SVMpred, col=c(1,2))
 
-Modeling Naive Bayes
-`{r, echo = TRUE, message = FALSE, warning = FALSE} model <- naiveBayes(target~., data = train_data) model #Memprediksi model solusi NBpred <- predict(model, test_data, type = "class") NBpred plot(NBpred, col = c("green", "yellow"))`
+## Modeling Naive Bayes
+    {r, echo = TRUE, message = FALSE, warning = FALSE} 
+    model <- naiveBayes(target~., data = train_data) 
+    model 
+### Memprediksi model solusi 
+    NBpred <- predict(model, test_data, type = "class") 
+    NBpred 
+    plot(NBpred, col = c("green", "yellow"))`
 
 Validation Data with K-Fold Cross Validation Logistic regression
 `{r, echo = TRUE, message = FALSE, warning = FALSE} library(boot) set.seed(293) glm.fit <- glm(target ~ age+sex+trestbps                +chol+fbs+restecg                +thalach+exang+oldpeak                +slope+ca+thal,                 family = quasibinomial,                 data = Data) cv.err.10 <- cv.glm(data = Data,                      glmfit = glm.fit,                     K = 10) cv.err.10$delta`

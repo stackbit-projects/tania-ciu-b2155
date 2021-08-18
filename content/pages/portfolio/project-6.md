@@ -125,10 +125,10 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
     library(caret) 
     library(class)
 
-set.seed(293) sample\<-sample.split(heart\$target, SplitRatio = 0.7)
+    set.seed(293) sample\<-sample.split(heart\$target, SplitRatio = 0.7)
 sample
 
-train\<-subset(heart, sample==TRUE) train
+    train\<-subset(heart, sample==TRUE) train
 
 test\<-subset(heart, sample==FALSE) test
 

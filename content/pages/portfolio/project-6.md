@@ -118,68 +118,6 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
     summary(LogisticPrediction)
     plot(LogisticPrediction)
 
-rt\$target, SplitRatio = 0.7)
-sample
-
-    train\<-subset(heart, sample==TRUE) 
-    train
-
-    test\<-subset(heart, sample==FALSE) 
-    test
-
-    train_x\<-subset(train\[,1:13\]) 
-    train_x
-
-    test_x\<-subset(test\[,1:13\]) 
-    test_x
-
-    train_target\<-train\$target 
-    train_target
-
-    test_target\<-test\$target 
-    test_target
-
-### normalisasi data 
-    normalise\<-function(newdataf,dataf) {
-normalizeddataf=newdataf
-    for(n in names(newdataf)) {
-normalizeddataf\[,n\]=(newdataf\[,n\]-min(dataf\[,n\]))/(max(dataf)-min(dataf))
-} 
-    return(normalizeddataf) }
-
-    train_norm\<-normalise(train_x\[1:13\],train_x\[1:13\]) 
-    train_norm
-
-    test_norm\<-normalise(test_x\[1:13\],train_x\[1:13\]) 
-    test_norm
-
-    predictKNN\<-knn(train=train_norm,test = test_norm, cl=train_target,
-    k=7) predictKNN plot(predictKNN, col = c("darkgreen", "darkblue"))
-
-## Modeling Suppot Vector Machine
-    {r, echo = TRUE, message = FALSE, warning = FALSE}
-    trctrl <- trainControl(method = "repeatedcv", number = 10, repeats = 3)
-
-    svm_Linear <- train(target ~., data = train_data, trControl = trctrl, 
-                        preProcess = c("center", "scale"), tuneLength = 10 )
-    svm_Linear
-    plot(svm_Linear)
-    testsvm <- svm(target ~ . , data = train_data,kernel = "radial", gamma = 1, cost = 1, scale = FALSE)
-    testsvm
-### Prediction
-    SVMpred <- predict(svm_Linear, newdata = test_data)
-    SVMpred
-    plot(SVMpred, col=c(1,2))
-
-## Modeling Naive Bayes
-    {r, echo = TRUE, message = FALSE, warning = FALSE} 
-    model <- naiveBayes(target~., data = train_data) 
-    model 
-### Memprediksi model solusi 
-    NBpred <- predict(model, test_data, type = "class") 
-    NBpred 
-    plot(NBpred, col = c("green", "yellow"))`
-
 ## Validation Data with K-Fold Cross Validation Logistic regression
     {r, echo = TRUE, message = FALSE, warning = FALSE} library(boot) set.seed(293) glm.fit <- glm(target ~ age+sex+trestbps                +chol+fbs+restecg                +thalach+exang+oldpeak                +slope+ca+thal,                 family = quasibinomial,                 data = Data) cv.err.10 <- cv.glm(data = Data,                      glmfit = glm.fit,                     K = 10) cv.err.10$delta`
 

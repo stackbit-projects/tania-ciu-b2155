@@ -120,7 +120,10 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 ## Modeling K-Nearest Neighbor
     {r, echo = TRUE, message = FALSE,
-warning = FALSE} library(caTools) library(caret) library(class)
+warning = FALSE} 
+library(caTools) 
+library(caret) 
+library(class)
 
 set.seed(293) sample\<-sample.split(heart\$target, SplitRatio = 0.7)
 sample
